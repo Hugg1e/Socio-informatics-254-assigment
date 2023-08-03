@@ -1,0 +1,4 @@
+{
+    "postAttachCommand": "python -m http.server",
+    "forwardPorts": [8000]
+}
