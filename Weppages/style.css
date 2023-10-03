@@ -1,0 +1,113 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    margin: 0 10px;
+    display: inline;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+main{
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: calc(50%-20px);
+    box-sizing: border-box;
+}
+
+.cities-block{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+
+}
+.cities-block:last-child{
+    border-right: none;
+}
+h3{
+    font-size: 1.2rem;
+    margin-bottom:1rem;
+
+}
+.cities-block {
+float: left;
+width: 25%;
+box-sizing: border-box;
+text-align: center;
+border-right: 1px solid grey;
+border-bottom: 1px solid grey;
+}
+
+.cities-block:last-child {
+border-right: none;
+clear: both; /* Clear the float to prevent layout issues */
+}
+
+/* Add individual background images for each city block */
+.athens-block {
+background-image: url("../Images/Athens-background-image.jpg");
+background-size: 100% 150%;
+background-color: white; /* Fallback color in case image fails to load */
+
+}
+
+.Fashion-Avenue-block {
+background-image: url("../Images/Fashion-Avenue-background-image.jpg");
+background-size: 100% 150%;
+background-color: white;
+}
+
+.Hollywood-block {
+background-image: url("../Images/Hollywood-background-image.jpg");
+background-size: 100% 150%;
+background-position: contain;
+background-color: white;
+
+}
+
+.TimeSquare-block {
+background-image: url("../Images/TimeSquare-background-image.jpg");
+background-size: 100% 150%;
+background-position: center center;
+background-color: white;
+}
+p{
+background-color: rgba(0,0,0,0.5);
+}
+
+
