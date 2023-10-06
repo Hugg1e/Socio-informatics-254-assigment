@@ -179,20 +179,7 @@ figcaption {
     color: white;
 }
 
-.cities-block {
-    float: left;
-    width: 25%;
-    box-sizing: border-box;
-    padding: 2rem;
-    text-align: center;
-    border-right: 1px solid grey;
-    border-bottom: 1px solid grey;
 
-}
-
-.cities-block:last-child {
-    border-right: none;
-}
 
 h3 {
     font-size: 1.2rem;
@@ -212,37 +199,53 @@ h3 {
 .cities-block:last-child {
     border-right: none;
     clear: both;
-    /* Clear the float to prevent layout issues */
+    
 }
 
-/* Add individual background images for each city block */
+
 .athens-block {
-    background-image: url("../Images/Athens-background-image.jpg");
-    background-size: 100% 150%;
-    background-color: white;
-    /* Fallback color in case image fails to load */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: auto;
 
 }
 
 .Fashion-Avenue-block {
-    background-image: url("../Images/Fashion-Avenue-background-image.jpg");
-    background-size: 100% 150%;
-    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: auto;
+
 }
 
 .Hollywood-block {
-    background-image: url("../Images/Hollywood-background-image.jpg");
-    background-size: 100% 150%;
-    background-position: contain;
-    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: auto;
+ 
 
 }
 
 .TimeSquare-block {
-    background-image: url("../Images/TimeSquare-background-image.jpg");
-    background-size: 100% 150%;
-    background-position: center center;
-    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: auto;
+
 }
 
 .text-opacity {
@@ -277,4 +280,23 @@ body.TimeSquare-page{
     margin-left: 1em;
     font-weight: bold;
     
+}
+.footer-athens{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center; 
+
+}
+.footer-container{
+    max-width: none;
+    margin: 0;
+    background-color: white;
+}
+.footer-TimeSquare{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center; 
+
 }
